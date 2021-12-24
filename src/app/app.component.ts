@@ -9,7 +9,6 @@ import { HttpClient } from '@angular/common/http';
 export class AppComponent implements OnInit {
 	title: string;	
 	ipAddress: string;
-	music = document.getElementById("music");
 	
 	constructor(private http:HttpClient) {
 		this.ipAddress = "";

@@ -1,23 +1,11 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <style>
-  :host {
-    font-family: "Comic Sans MS";
-    font-size: 14px;
-    color: #000;
-    -webkit-font-smoothing: none;
-    -moz-osx-font-smoothing: grayscale;
-  }
   img {
-	  margin-top: 60px;
-	  max-width: 25%;
+	  margin-top: 10vh;
+	  width: 20vw;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
   }
 
   @keyframes fade-in {
@@ -34,25 +22,16 @@
   }
   
   p {
+	  margin: auto;
+	  color: #000;
+	  text-align: center;
       font-weight: 900;
-	  font-size: 800%;
+	  font-size: 9vw;
 	  font-family: 'Comic Sans MS';
 	  animation: fade-in 2s linear 4s both;
   }
 </style>
 
-<div class="container">
-  <img src="assets/bart.png" class="img img-fluid fade-in mx-auto d-block"/>
-</div>
-<div>
-  <p class="text-center">{{ipAddress}}</p>
-</div>
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
+<img src="assets/bart.png" class="img fade-in"/>
+<p>{{ipAddress}}</p>
 
